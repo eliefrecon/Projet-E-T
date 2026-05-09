@@ -1,15 +1,11 @@
 a{
   font-size: 1.5em;
-  color: black;
-  font-family:"Oswald", system-ui;
-  font-weight: 400;
+  color: rgb(48, 48, 48);
   text-decoration: none;
 }
 
 h1{
   font-size: 2.5em;
-  font-family:"Oswald", system-ui;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -24,15 +20,15 @@ div{
   height: 60px;
   line-height: 60px;
   margin: 0.5em 0.4em;
-  background-color: white;
-  border: 2px solid black;
-  box-shadow: black 0.1em 0.2em 0px;
+  background: linear-gradient(to right, rgba(255, 236, 194, 0.5), rgba(250, 172, 231, 0.5));
+  border: 2px solid rgb(48, 48, 48);
+  box-shadow: rgb(48, 48, 48) 0.1em 0.2em 0px;
   border-radius: 1em 1em 1em 1em;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .bouton-c:hover {
-  box-shadow: black 0em 0em 0px;
+  box-shadow: rgb(48, 48, 48) 0em 0em 0px;
   transform: translate(0.1em, 0.2em);
 }
 
@@ -53,4 +49,12 @@ div{
 .bouton-s-c:hover {
   box-shadow: black 0em 0em 0px;
   transform: translate(0.1em, 0.2em);
+}
+
+body{
+  background-color: rgba(255, 236, 194, 0.5);
+  color: rgb(48, 48, 48);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
