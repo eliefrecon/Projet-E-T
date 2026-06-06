@@ -1,15 +1,15 @@
-a{
+a {
   font-size: 1.5em;
   color: rgb(48, 48, 48);
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-size: 2.5em;
   text-align: center;
 }
 
-div{
+div {
   text-align: center;
 }
 
@@ -20,11 +20,17 @@ div{
   height: 60px;
   line-height: 60px;
   margin: 0.5em 0.4em;
-  background: linear-gradient(to right, rgba(255, 236, 194, 0.5), rgba(250, 172, 231, 0.5));
+  background: linear-gradient(
+    to right,
+    rgba(255, 236, 194, 0.5),
+    rgba(250, 172, 231, 0.5)
+  );
   border: 2px solid rgb(48, 48, 48);
   box-shadow: rgb(48, 48, 48) 0.1em 0.2em 0px;
   border-radius: 1em 1em 1em 1em;
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transition:
+    transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
 }
 
 .bouton-c:hover {
@@ -43,7 +49,9 @@ div{
   border: 2px solid black;
   box-shadow: black 0.1em 0.2em 0px;
   border-radius: 1em 1em 1em 1em;
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transition:
+    transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
 }
 
 .bouton-s-c:hover {
@@ -51,10 +59,73 @@ div{
   transform: translate(0.1em, 0.2em);
 }
 
-body{
-  background-color: rgba(255, 236, 194, 0.5);
+html {
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  /* background-color: rgba(255, 204, 95, 0.5); */
+  background-color: rgba(93, 56, 23, 1);
+  /* background: linear-gradient(
+    to top rgba(93, 56, 23, 1),
+    rgba(255, 204, 95, 0.5)); */
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(93, 56, 23, 0.3) 75%,
+      rgba(93, 56, 23, 1) 100%
+    ),
+    url(/images/fondecranlerno6.gif);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:
+    100% 828px,
+    100% auto;
   color: rgb(48, 48, 48);
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bouton-i {
+  position: relative;
+  display: inline-block;
+  width: 450px;
+  height: 70px;
+  line-height: 70px;
+  margin: 0.5em 0.4em;
+  background: linear-gradient(
+    to right,
+    rgba(255, 236, 194, 0.5),
+    rgba(250, 172, 231, 0.5)
+  );
+  border: 2px solid rgb(48, 48, 48);
+  box-shadow: rgb(48, 48, 48) 0.1em 0.2em 0px;
+  font-size: 1.25em;
+  border-radius: 1em 1em 1em 1em;
+  transition:
+    transform 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+}
+
+.bouton-i:hover {
+  box-shadow: rgb(48, 48, 48) 0em 0em 0px;
+  transform: translate(0.1em, 0.2em);
+}
+
+.title {
+  position: relative;
+  margin-top: 240px;
+  font-size: 5em;
+}
+
+p {
+  margin-top: 40em;
 }
