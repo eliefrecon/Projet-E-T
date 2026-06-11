@@ -64,22 +64,34 @@ html {
 }
 
 body {
-  background-color: rgba(93, 56, 23, 1);
-  /* background: linear-gradient(
-    to top rgba(93, 56, 23, 1),
-    rgba(255, 204, 95, 0.5)); */
+  background-color: rgba(255, 215, 140, 0.5);
+  color: rgb(48, 48, 48);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.index {
+  /* background-color: rgba(93, 56, 23, 1); */
+  background-color: rgba(255, 215, 140, 0.5);
   background-image:
     linear-gradient(
       to bottom,
       rgba(93, 56, 23, 0.3) 75%,
       rgba(93, 56, 23, 1) 100%
     ),
-    url(/images/fondecranlerno6.gif);
+    url(/images/fondecranlerno6.gif),
+    linear-gradient(
+      to bottom,
+      rgba(93, 56, 23, 1) 830px,
+      rgba(255, 215, 140, 0.5) 2000px
+    );
   background-repeat: no-repeat;
   background-position: top center;
   background-size:
     100% 828px,
-    100% auto;
+    100% auto,
+    100% 100%;
   color: rgb(48, 48, 48);
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -125,5 +137,5 @@ body::-webkit-scrollbar,
 }
 
 p {
-  margin-top: 40em;
+  margin-top: 200em;
 }
