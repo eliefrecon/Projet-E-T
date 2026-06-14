@@ -80,7 +80,7 @@ body {
       rgba(93, 56, 23, 0.3) 75%,
       rgba(93, 56, 23, 1) 100%
     ),
-    url(/images/fondecranlerno6.gif),
+    url(/images/fondecranlerno15.png),
     linear-gradient(
       to bottom,
       rgba(93, 56, 23, 1) 830px,
@@ -92,9 +92,9 @@ body {
     100% 828px,
     100% auto,
     100% 100%;
-  color: rgb(48, 48, 48);
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -107,9 +107,9 @@ body::-webkit-scrollbar,
 .bouton-i {
   position: relative;
   display: inline-block;
-  width: 450px;
-  height: 70px;
-  line-height: 70px;
+  width: 360px;
+  height: 60px;
+  line-height: 60px;
   margin: 0.5em 0.4em;
   background: linear-gradient(
     to right,
@@ -118,11 +118,14 @@ body::-webkit-scrollbar,
   );
   border: 2px solid rgb(48, 48, 48);
   box-shadow: rgb(48, 48, 48) 0.1em 0.2em 0px;
-  font-size: 1.25em;
+  font-size: 1.15em;
   border-radius: 1em 1em 1em 1em;
   transition:
     transform 0.5s ease-in-out,
     box-shadow 0.5s ease-in-out;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .bouton-i:hover {
